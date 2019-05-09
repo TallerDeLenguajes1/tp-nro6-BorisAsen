@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP6_Asen_Boris_Yamir
+namespace Ejercicio_1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int vble;
-            vble = int.Parse(Console.ReadLine());
-            Console.Write(vble);
+            int nro;
+            int digito;
+            Console.Write("Ingrese un numero a invertir: ");
+            nro = int.Parse(Console.ReadLine());
+            Console.Write("\nEl numero ivertido queda: ");
 
-            if (vble < 50)
+            while (nro > 0)
             {
-                Console.Write(" es menor de 50");
-            }
-            else
-            {
-                Console.Write(" es mayor de 50");
+                digito = nro % 10;
+                Console.Write(digito);
+                nro = nro / 10;
             }
 
             Console.ReadKey();
