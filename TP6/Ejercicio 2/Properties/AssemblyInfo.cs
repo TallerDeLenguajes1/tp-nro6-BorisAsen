@@ -8,28 +8,28 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Ejercicio 2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Ejercicio 2")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2019")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 
-// para los componentes COM.  Si necesita obtener acceso a un tipo de este ensamblado desde 
+// para los componentes COM.  Si es necesario obtener acceso a un tipo en este ensamblado desde 
 // COM, establezca el atributo ComVisible en true en este tipo.
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("3ae57aee-fc65-4902-8cb6-ade39f35219b")]
+[assembly: Guid("e199b055-533f-44ec-a277-46290ce4dd40")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
 //      Versión principal
-//      Versión secundaria 
+//      Versión secundaria
 //      Número de compilación
 //      Revisión
 //
-// Puede especificar todos los valores o usar los valores predeterminados de número de compilación y de revisión 
+// Puede especificar todos los valores o utilizar los números de compilación y de revisión predeterminados
 // mediante el carácter '*', como se muestra a continuación:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
